@@ -1,11 +1,11 @@
 ## **Filato— Browser-Based File System Interface** ##
 
--- Filato is a lightweight web-based file system simulation built with HTML, CSS, and JavaScript.
+--> Filato is a lightweight web-based file system simulation built with HTML, CSS, and JavaScript.
 It provides a desktop-like interface in the browser, allowing users to interact with files, view system metrics, and navigate between different panels.
 
-**A live demo is available here**
+## **A live version is available** ##
 
-[Filato](https://abdelrahmanshaalan.github.io/Filato/home.html)
+--> [Filato](https://abdelrahmanshaalan.github.io/Filato/home.html)
 
 ## **Overview** ##
 
