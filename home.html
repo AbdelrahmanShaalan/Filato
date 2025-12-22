@@ -25,13 +25,13 @@
     <div class="message">
         <div class="title-block">
             <h2>Enter The Value <span>(for files: only file.txt supported)</span></h2>
-            <button id="closeButton"><i class="bi bi-x-lg"></i></button>
+            <button id="closeMessageButton"><i class="bi bi-x-lg"></i></button>
         </div>
         <div class="input-box">
             <input id="valueInput" type="text">
             <button id="enterButton">Enter</button>
         </div>
-        <span class="last-span">*If rename button is clicked already, type like "old = new"<br>**If delete button is clicked already, type "/d" after folder name like "folder1/d" to delete a folder</span>
+        <!-- <span class="last-span">*If rename button is clicked already, type like "old = new"<br>**If delete button is clicked already, type "/d" after folder name like "folder1/d" to delete a folder</span> -->
     </div>
     <main>
         <div class="logo"></div>
@@ -71,22 +71,23 @@
             </div>
             <div class="screen">
                 <div class="tools">
-                    <button id="addFileButton" button-type="addFile"><i class="bi bi-file-plus" button-type="addFile"></i></button>
-                    <button id="addFolderButton" button-type="addFolder"><i class="bi bi-folder-plus" button-type="addFolder"></i></button>
-                    <button id="deleteButton" button-type="delete"><i class="bi bi-trash" button-type="delete"></i></button>
+                    <button id="previousButton" button-type="previous" disabled><i class="bi bi-arrow-left"></i></button>
+                    <button id="addFileButton" button-type="addFile"><i class="bi bi-file-plus"></i></button>
+                    <button id="addFolderButton" button-type="addFolder"><i class="bi bi-folder-plus"></i></button>
+                    <button id="deleteButton" button-type="delete"><i class="bi bi-trash"></i></button>
                     <button id="deleteFolderButton" button-type="deleteFolder"><i class="bi bi-folder-x"></i></button>
                 </div>
                 <h3 id="currentPage">Desktop</h3>
                 <div class="data-box">
+                    <div id="previewOverlay"></div>
                     <div class="preview">
                         <div class="title-block">
                             <h3 class="file-title">text.txt</h3>
-                            <button id="closeButton"><i class="bi bi-x-lg"></i></button>
+                            <button id="closePreviewButton"><i class="bi bi-x-lg"></i></button>
                         </div>
                         <textarea name="previewInput" id="previewInput"></textarea>
                         <button id="saveButton">Save</button>
                     </div>
-                    <div class="overlay"></div>
                 </div>
             </div>
         </div>
