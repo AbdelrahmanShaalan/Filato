@@ -5,7 +5,7 @@ It provides a desktop-like interface in the browser, allowing users to interact 
 
 ## **A live version is available** ##
 
---> [Filato](https://abdelrahmanshaalan.github.io/Filato/home.html)
+--> [Filato](https://abdelrahmanshaalan.github.io/Filato/)
 
 ## **Overview** ##
 
@@ -56,25 +56,4 @@ Filato/
 └── README.md         # Project documentation
 ```
 
-
-### Installation and Usage
-
-- To run Filato locally:
-
-- Clone the repository:
-```
-git clone https://github.com/AbdelrahmanShaalan/Filato.git
-```
-
-- Open home.html in a web browser.
-
-- Optionally, serve via a local HTTP server:
-```
-npx http-server .
-```
-```
-License
-
-This project is distributed under the MIT License, allowing for modification, redistribution, and personal or commercial use.
-```
 Interact with the file editor and explore the available panels.
